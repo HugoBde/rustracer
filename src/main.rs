@@ -77,6 +77,7 @@ fn save(img: Image) {
 }
 
 fn main() {
+    println!("Hello, World!");
     let args: Vec<String> = std::env::args().collect();
     let w: u32 = args[1].parse().unwrap();
     let h: u32 = args[2].parse().unwrap();
